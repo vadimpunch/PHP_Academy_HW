@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;                               
+	vertical-align: baseline;          
+	background: transparent;      
+	font-size: 100%;     
+
+}
+body{
+	width: 760px;
+	height: 1350px;
+}
+.menu_top{margin-bottom: 58px;}
+
+.profile_photo{
+	float: left;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	margin-left:25px;
+	margin-right:48px;
+}
+.posts{
+float: left;
+display: inline-block;
+height: : 62px;
+ width: 150px;
+ text-align: center;
+ padding-bottom: 10px;
+}
+.posts1{
+
+margin-left: 37px;
+}
+.posts b{
+	font-size: 26px;
+}
+.posts p{
+	
+	font-size: 22px;
+	color: #999999;
+	
+}
+	
+.content{
+	height: 180px;
+	width:800px;
+
+}
+.description{
+
+	width: 260;
+	height: 160;
+	margin-left:25px;
+	font-size: 25px;
+	text-align: justify;
+}
+
+.bot_elem{
+	margin-top: 25px;
+	text-align: center;
+	border-top: 1px solid #dbdbdb;
+	float:left;
+padding-top: 27px;
+	width:159.5px;
+
+	height: 65px;	
+}
+.bottom .bot_elem:first-child{
+margin-left: 30px;
+
+}
+.bottom {
+	position:relative;
+}
+.posted_photo{
+	display: inline-block;
+	float: left;
+	width: 245px;
+	height: 250px;
+	margin-right: 5px;
+	background-color: #efefef;
+	margin-bottom:5px;
+}
+.statistick{
+	display: none;
+	position: absolute;
+	bottom:-40px;
+	left:140px;
+}	
+.dot{
+	position:absolute;
+	top: 90px;
+	left: 265px;
+	display:none;
+}
+.bottom>.bot_elem>a:hover~.statistick{
+	display: block;
+
+
+}
+.bottom>.bot_elem>a:hover~.dot{
+	display: block;
+
+
+}
+
