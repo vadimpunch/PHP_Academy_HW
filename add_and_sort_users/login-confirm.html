@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		function registred (question) {
+			var answer = prompt('Введите ваш '+ question, null);
+			
+			if (question == 'логин') {
+				
+				if (answer == 'admin'|| answer == 'user') {
+					registred('пароль', 'null')
+					
+				}
+				else if (answer=='guest') {
+					alert('Добро пожаловать гость');
+				}
+
+				else {
+				     alert(answer + ' нет в системе!');
+			    }
+
+			}
+			
+			else if (question == 'пароль') {
+
+				if (answer == '123' || answer == '777' || answer == '333') 
+				{
+					alert('Добро пожаловать! ');
+				}
+				
+				else alert('Пароль не верный!');
+			}
+			
+			
+			
+		}
+		registred('логин');
+	</script>
+	
+</body>
+</html>
